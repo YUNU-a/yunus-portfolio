@@ -1,5 +1,7 @@
 import ScrollyCanvas from '@/components/ScrollyCanvas';
 import Overlay from '@/components/Overlay';
+import About from '@/components/About';
+import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 
 export default function Home() {
@@ -14,7 +16,9 @@ export default function Home() {
       </div>
 
       {/* Content after the scroll */}
-      <div className="relative z-10 bg-background">
+      <div className="relative z-10 bg-background flex flex-col">
+        <About />
+        <Skills />
         <Projects />
       </div>
     </main>

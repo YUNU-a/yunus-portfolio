@@ -26,10 +26,10 @@ export default function Overlay() {
         className="absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center"
       >
         <h1 className="text-6xl md:text-8xl font-bold text-white tracking-tighter drop-shadow-xl text-center">
-          My Name
+          MOHAMMED YUNUS U
         </h1>
         <p className="text-xl md:text-2xl text-blue-400 mt-4 tracking-widest uppercase glow-text font-medium self-center text-center">
-          AI Expert
+          SQL Developer & Data Analyst
         </p>
       </motion.div>
 
@@ -39,7 +39,7 @@ export default function Overlay() {
         className="absolute top-[40%] left-[10%] -translate-y-1/2"
       >
         <h2 className="text-4xl md:text-6xl font-medium text-white max-w-sm drop-shadow-lg leading-tight">
-          I build <span className="text-blue-400">AI creative</span> video&apos;s
+          I build <span className="text-blue-400">data-driven</span> solutions.
         </h2>
       </motion.div>
 
@@ -50,7 +50,7 @@ export default function Overlay() {
       >
         <div className="backdrop-blur-md bg-white/10 p-8 rounded-3xl border border-white/20 shadow-[0_0_40px_rgba(255,255,255,0.1)]">
           <h2 className="text-3xl md:text-5xl font-light text-white max-w-md text-right leading-relaxed">
-            Bridging dream into reality.
+            Extracting insights from complex data.
           </h2>
         </div>
       </motion.div>
